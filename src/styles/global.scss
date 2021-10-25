@@ -1,3 +1,23 @@
+:root {
+  --text-color: #e1e1e6;
+  --background-color: #121214;
+
+  --white: #ffffff;
+
+  --pink-500: #ff008e;
+
+  --yellow-500: #ff008e;
+
+  --grey-100: #c4c4cc;
+  --grey-200: #8d8d99;
+  --grey-500: #29292e;
+  --grey-600: #202024;
+  --grey-700: #1b1b1f;
+  --grey-800: #17171a;
+  --grey-900: #09090a;
+
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +26,8 @@
 }
 
 body {
-  color: #e1e1e6;
-  background-color: #121214;
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  overflow: hidden;
 }

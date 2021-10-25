@@ -1,5 +1,5 @@
 .sendMessageFormWrapper {
-  background: #1b1b1f;
+  background: var(--grey-700);
   padding: 24px;
   align-self: center;
   border-radius: 6px;
@@ -15,7 +15,7 @@
     position: absolute;
     background: transparent;
     border: 0;
-    color: #c4c4cc;
+    color: var(--grey-100);
     left: 24px;
     top: 24px;
 
@@ -35,7 +35,7 @@
 
     .userImage {
       padding: 3px;
-      background: linear-gradient(100deg, #ff008e 0.48%, #ffcd1e 100%);
+      background: linear-gradient(100deg, var(--pink-500) 0.48%, var(--yellow-500) 100%);
       border-radius: 50%;
       line-height: 0;
 
@@ -44,7 +44,7 @@
         height: 94px;
         border-radius: 94px;
 
-        border: 6px solid #121214;
+        border: 6px solid var(--background-color);
       }
     }
 
@@ -58,7 +58,7 @@
       display: flex;
       align-items: center;
       margin-top: 8px;
-      color: #c4c4cc;
+      color: var(--grey-100);
 
       > svg {
         margin-right: 8px;
@@ -73,14 +73,14 @@
     margin-top: 48px;
     border-radius: 6px;
 
-    background: #202024;
+    background: var(--grey-600);
 
     overflow: hidden;
 
     > label {
       padding: 18px 24px;
       font-size: 20px;
-      background: #29292e;
+      background: var(--grey-500);
       font-weight: bold;
       text-align: left;
     }
@@ -91,7 +91,7 @@
       padding: 24px;
       resize: none;
       height: 160px;
-      color: #e1e1e6;
+      color: var(--text-color);
       font-size: 16px;
       line-height: 24px;
 
@@ -100,17 +100,17 @@
       }
 
       &::placeholder {
-        color: #8d8d99;
+        color: var(--grey-200);
       }
     }
 
     > button {
-      background: #ff008e;
+      background: var(--pink-500);
       margin: 24px;
       cursor: pointer;
       padding: 0 32px;
       height: 40px;
-      color: #fff;
+      color: var(--white);
       font-size: 14px;
       font-weight: bold;
       text-transform: uppercase;
