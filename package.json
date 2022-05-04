@@ -7,6 +7,8 @@
     "email": "matt_z6@hotmail.com",
     "url": "https://github.com/mattz6"
   },
+  "repository": "https://github.com/MattZ6/nlw-heat-web",
+  "bugs": "https://github.com/MattZ6/nlw-heat-web/issues",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
