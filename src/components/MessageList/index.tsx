@@ -20,7 +20,7 @@ type Message = {
   user: MessageUser;
 }
 
-const socket = io('http://localhost:3333');
+const socket = io(String(import.meta.env.VITE_API_URL));
 
 const messagesQueue: Message[] = [];
 

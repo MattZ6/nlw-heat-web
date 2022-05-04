@@ -31,7 +31,7 @@ const TOKEN_KEY = '@NlwHeat:token';
 export function AuthProvider({ children }: AuthProviderProps) {
   const [user, setUser] = useState<User | undefined>();
 
-  const signInURL = `https://github.com/login/oauth/authorize?scope=user&client_id=${'abbe447ac032d2c3cefe'}`;
+  const signInURL = `https://github.com/login/oauth/authorize?scope=user&client_id=${import.meta.env.VITE_GITHUB_CLIENT_ID}`;
 
   async function signIn(githubCode: string) {
     try {
